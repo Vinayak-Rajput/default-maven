@@ -2,7 +2,7 @@ pipeline {
     agent any  // Use any available agent
 
     tools {
-        maven 'MvnApp'  // Ensure this matches the name configured in Jenkins
+        maven 'default-maven'  // Ensure this matches the name configured in Jenkins
     }
     stages {
         stage('Checkout') {
